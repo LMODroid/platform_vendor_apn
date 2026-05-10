@@ -104,17 +104,19 @@
     <apn
         mcc="470"
         mnc="02"
-        carrier="IMS"
-        apn="ims"
-        type="ims"
-        user_visible="false"
+        carrier="Robi"
+        apn="internet"
+        type="default,supl"
     />
     <apn
         mcc="470"
         mnc="02"
-        carrier="Robi"
-        apn="internet"
-        type="default,supl"
+        carrier="Robi IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
     />
     <apn
         mcc="470"
@@ -180,6 +182,16 @@
     <apn
         mcc="470"
         mnc="04"
+        carrier="Tele Talk IMS"
+        apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="470"
+        mnc="04"
         carrier="Tele Talk WAP"
         apn="wap"
         port="9201"
@@ -215,8 +227,10 @@
     <apn
         mcc="470"
         mnc="07"
-        carrier="IMS"
+        carrier="Airtel IMS"
         apn="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
     />
