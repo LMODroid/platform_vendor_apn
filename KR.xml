@@ -25,6 +25,7 @@
         mmsport="9093"
         mmsproxy="smart.nate.com"
         server="*"
+        type="default,mms,supl,fota,cbs"
     />
     <apn
         mcc="450"
@@ -73,6 +74,7 @@
         mmsport="9093"
         mmsproxy="smart.nate.com"
         server="*"
+        type="default,mms,supl,fota,cbs"
     />
     <apn
         mcc="450"
@@ -108,6 +110,7 @@
         apn="lte-roaming.lguplus.co.kr"
         authtype="0"
         mmsc="http://omammsc.uplus.co.kr:9084"
+        type="default,mms,supl,fota,cbs"
     />
     <apn
         mcc="450"
@@ -116,6 +119,7 @@
         apn="wroaming.lguplus.co.kr"
         authtype="0"
         mmsc="http://omammsc.uplus.co.kr:9084"
+        type="default,mms,supl,fota,cbs"
     />
     <apn
         mcc="450"
@@ -182,6 +186,7 @@
         mmsport="9093"
         mmsproxy="smart.nate.com"
         server="*"
+        type="default,mms,supl,fota,cbs"
     />
     <apn
         mcc="450"
@@ -192,5 +197,6 @@
         mmsport="9093"
         mmsproxy="smart.nate.com"
         server="*"
+        type="default,mms,supl,fota,cbs"
     />
 </apns>

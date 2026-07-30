@@ -132,6 +132,7 @@
         password=""
         port=""
         proxy=""
+        type="default,supl"
         user=""
     />
     <apn
@@ -143,6 +144,7 @@
         password=""
         port=""
         proxy=""
+        type="default,supl"
         user=""
     />
     <apn

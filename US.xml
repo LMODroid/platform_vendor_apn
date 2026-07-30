@@ -886,6 +886,7 @@
         mnc="170"
         carrier="FreedomPop"
         apn="fp.com.attz"
+        type="default"
     />
     <apn
         mcc="310"
@@ -1168,6 +1169,7 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         server="*"
+        type="default,supl,mms,fota,cbs"
         user="none"
     />
     <apn
@@ -2624,6 +2626,7 @@
         carrier="Docomo Pacific"
         apn="internet"
         password=""
+        type="default,supl"
         user=""
     />
     <apn
@@ -4344,6 +4347,7 @@
         carrier="AirFire"
         apn="internet.air.net"
         password=""
+        type="default,supl"
         user=""
     />
     <apn
@@ -4851,6 +4855,7 @@
         mmsc="http://172.16.16.103/mms/"
         mmsport="8080"
         mmsproxy="172.16.16.102"
+        type="default,ia,mms"
     />
     <apn
         mcc="311"
