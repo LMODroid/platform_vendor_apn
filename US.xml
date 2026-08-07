@@ -1015,6 +1015,7 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         server="*"
+        type="default,supl,mms,fota,cbs"
         user="none"
     />
     <apn
