@@ -34,18 +34,4 @@
         roaming_protocol="IPV4V6"
         type="ims"
     />
-    <apn
-        mcc="420"
-        mnc="20"
-        carrier="Softbank(internet)"
-        apn="andglobal.softbank.ne.jp"
-        mmsc="http://mms/"
-        mmsport="8080"
-        mmsproxy="andmms.softbank.ne.jp"
-        password="pumbbghkpgyysxa"
-        port=""
-        proxy=""
-        type="default,mms"
-        user="andg001softbank"
-    />
 </apns>

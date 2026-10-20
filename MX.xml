@@ -54,35 +54,6 @@
     />
     <apn
         mcc="334"
-        mnc="05"
-        carrier="Internet Modem"
-        apn="modem.iusacellgsm.mx"
-        password="iusacellgsm"
-        type="dun"
-        user="iusacellgsm"
-    />
-    <apn
-        mcc="334"
-        mnc="05"
-        carrier="Iusacell Internet"
-        apn="web.iusacellgsm.mx"
-        authtype="0"
-        password="iusacellgsm"
-        type="default,supl"
-        user="iusacellgsm"
-    />
-    <apn
-        mcc="334"
-        mnc="05"
-        carrier="Iusacell MMS"
-        apn="mms.iusacellgsm.mx"
-        mmsc="http://mms.iusacell3g.com/"
-        password="mmsiusacellgsm"
-        type="mms"
-        user="mmsiusacellgsm"
-    />
-    <apn
-        mcc="334"
         mnc="050"
         carrier="IMS"
         apn="ims"

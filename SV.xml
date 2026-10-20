@@ -17,29 +17,6 @@
     />
     <apn
         mcc="706"
-        mnc="030"
-        carrier="INTERNET TIGO SV"
-        apn="internet.tigo.sv"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="706"
-        mnc="030"
-        carrier="MMS TIGO SV"
-        apn="mms.tigo.sv"
-        mmsc="http://mms"
-        mmsport="8888"
-        mmsproxy="10.16.17.12"
-        password=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="706"
         mnc="04"
         carrier="IMS"
         apn="ims"

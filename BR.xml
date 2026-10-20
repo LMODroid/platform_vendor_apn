@@ -439,15 +439,6 @@
     />
     <apn
         mcc="724"
-        mnc="29"
-        carrier="Unifique"
-        apn="unifique.br"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,ims,supl,xcap"
-    />
-    <apn
-        mcc="724"
         mnc="31"
         carrier="Oi Velox"
         apn="gprs.oi.com.br"
