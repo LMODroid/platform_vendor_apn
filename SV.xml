@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    SPDX-FileCopyrightText: Google Inc
     SPDX-FileCopyrightText: The LineageOS Project
     SPDX-License-Identifier: Apache-2.0
 -->
@@ -8,23 +7,6 @@
     <apn
         mcc="706"
         mnc="01"
-        carrier="Claro SV"
-        apn="internet.claro.sv"
-        type="default,supl"
-    />
-    <apn
-        mcc="706"
-        mnc="01"
-        carrier="Claro SV MMS"
-        apn="mms.claro.sv"
-        mmsc="http://mms.claro.sv"
-        mmsport="8080"
-        mmsproxy="216.230.133.66"
-        type="mms"
-    />
-    <apn
-        mcc="706"
-        mnc="01"
         carrier="IMS"
         apn="ims"
         network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
@@ -32,69 +14,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="706"
-        mnc="02"
-        carrier="Digicel MMS"
-        apn="wap"
-        mmsc="http://mms.digicelgroup.com"
-        mmsport="8080"
-        mmsproxy="172.26.5.12"
-        password=""
-        port=""
-        proxy=""
-        type="mms"
-        user=""
-    />
-    <apn
-        mcc="706"
-        mnc="02"
-        carrier="Digicel SV"
-        apn="wap.digicelsv.com"
-        type="default,supl"
-    />
-    <apn
-        mcc="706"
-        mnc="02"
-        carrier="Digicel SV MMS"
-        apn="wap.digicelsv.com"
-        mmsc="http://172.26.5.132/servlets/mms"
-        mmsport="8080"
-        mmsproxy="172.26.5.12"
-        type="mms"
-    />
-    <apn
-        mcc="706"
-        mnc="02"
-        carrier="Digicel Web"
-        apn="web"
-        password=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="706"
-        mnc="03"
-        carrier="INTERNET TIGO SV"
-        apn="internet.tigo.sv"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="706"
-        mnc="03"
-        carrier="MMS TIGO SV"
-        apn="mms.tigo.sv"
-        mmsc="http://mms"
-        mmsport="8888"
-        mmsproxy="10.16.17.12"
-        password=""
-        type="mms"
-        user=""
     />
     <apn
         mcc="706"
@@ -129,32 +48,6 @@
         roaming_protocol="IPV4V6"
         type="ims"
         user_visible="false"
-    />
-    <apn
-        mcc="706"
-        mnc="04"
-        carrier="Movistar MMS"
-        apn="mms.movistar.sv"
-        mmsc="http://mms.movistar.sv"
-        mmsport="80"
-        mmsproxy="10.12.20.1"
-        password="movistarsv"
-        port=""
-        proxy=""
-        type="mms"
-        user="movistarsv"
-    />
-    <apn
-        mcc="706"
-        mnc="04"
-        carrier="Movistar SV"
-        apn="internet.movistar.sv"
-        mmsc=""
-        password="movistarsv"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="movistarsv"
     />
     <apn
         mcc="706"
@@ -168,46 +61,6 @@
         protocol="IPV4V6"
         proxy=""
         type="xcap"
-        user="movistarsv"
-    />
-    <apn
-        mcc="706"
-        mnc="04"
-        carrier="Movistar SV MMS"
-        apn="mms.movistar.sv"
-        mmsc="http://mms.movistar.sv"
-        mmsport="80"
-        mmsproxy="10.12.20.1"
-        password="movistarsv"
-        port=""
-        proxy=""
-        type="mms"
-        user="movistarsv"
-    />
-    <apn
-        mcc="706"
-        mnc="040"
-        carrier="Movistar SV"
-        apn="internet.movistar.sv"
-        mmsc=""
-        password="movistarsv"
-        port=""
-        proxy=""
-        type="default,supl"
-        user="movistarsv"
-    />
-    <apn
-        mcc="706"
-        mnc="040"
-        carrier="Movistar SV MMS"
-        apn="mms.movistar.sv"
-        mmsc="http://mms.movistar.sv"
-        mmsport="80"
-        mmsproxy="10.12.20.1"
-        password="movistarsv"
-        port=""
-        proxy=""
-        type="mms"
         user="movistarsv"
     />
 </apns>

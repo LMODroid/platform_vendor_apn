@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    SPDX-FileCopyrightText: Google Inc
     SPDX-FileCopyrightText: The LineageOS Project
     SPDX-License-Identifier: Apache-2.0
 -->
@@ -13,29 +12,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"
-    />
-    <apn
-        mcc="704"
-        mnc="02"
-        carrier="INTERNET TIGO GT"
-        apn="internet.tigo.gt"
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="704"
-        mnc="02"
-        carrier="MMS TIGO GT"
-        apn="mms.tigo.gt"
-        mmsc="http://mms"
-        mmsport="8888"
-        mmsproxy="10.16.17.12"
-        password=""
-        type="mms"
-        user=""
     />
     <apn
         mcc="704"
@@ -53,56 +29,10 @@
         mnc="03"
         carrier="Movistar INTERNET"
         apn="internet.movistar.gt"
-        password="movistargt"
-        type="default,supl"
-        user="movistargt"
-    />
-    <apn
-        mcc="704"
-        mnc="03"
-        carrier="Movistar INTERNET"
-        apn="internet.movistar.gt"
         network_type_bitmask="18"
         password="movistargt"
         protocol="IPV4V6"
         type="xcap"
-        user="movistargt"
-    />
-    <apn
-        mcc="704"
-        mnc="03"
-        carrier="Movistar MMS"
-        apn="mms.movistar.gt"
-        mmsc="http://mms.movistar.gt"
-        mmsport="80"
-        mmsproxy="10.12.22.1"
-        password="movistargt"
-        port=""
-        proxy=""
-        type="mms"
-        user="movistargt"
-    />
-    <apn
-        mcc="704"
-        mnc="030"
-        carrier="Movistar INTERNET"
-        apn="internet.movistar.gt"
-        password="movistargt"
-        type="default,supl"
-        user="movistargt"
-    />
-    <apn
-        mcc="704"
-        mnc="030"
-        carrier="Movistar MMS"
-        apn="mms.movistar.gt"
-        mmsc="http://mms.movistar.gt"
-        mmsport="80"
-        mmsproxy="10.12.22.1"
-        password="movistargt"
-        port=""
-        proxy=""
-        type="mms"
         user="movistargt"
     />
 </apns>
