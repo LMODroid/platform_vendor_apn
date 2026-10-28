@@ -14,11 +14,4 @@
         roaming_protocol="IPV4V6"
         type="ims"
     />
-    <apn
-        mcc="219"
-        mnc="10"
-        carrier="IMS"
-        apn="ims"
-        type="ims"
-    />
 </apns>

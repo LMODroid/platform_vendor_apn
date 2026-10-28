@@ -21,16 +21,4 @@
         protocol="IPV4V6"
         type="ims"
     />
-    <apn
-        mcc="257"
-        mnc="04"
-        carrier="Life:) // Internet"
-        apn="mms.life.com.by"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
 </apns>

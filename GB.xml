@@ -84,16 +84,6 @@
     <apn
         mcc="234"
         mnc="10"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        type="ims"
-        user_visible="false"
-    />
-    <apn
-        mcc="234"
-        mnc="10"
         carrier="o2 Mobile Web"
         apn="mobile.o2.co.uk"
         network_type_bitmask="18"
@@ -125,16 +115,6 @@
     />
     <apn
         mcc="234"
-        mnc="20"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="234"
         mnc="30"
         carrier="BT MMS"
         apn="mms.btonephone.com"
@@ -150,23 +130,6 @@
         proxy=""
         type="mms,xcap"
         user=""
-    />
-    <apn
-        mcc="234"
-        mnc="30"
-        carrier="EE MMS"
-        apn="eezone"
-        authtype="1"
-        mmsc="http://mms/"
-        mmsport="8080"
-        mmsproxy="149.254.201.135"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        password="secure"
-        port=""
-        protocol="IP"
-        proxy=""
-        type="mms,xcap"
-        user="eesecure"
     />
     <apn
         mcc="234"
@@ -258,18 +221,6 @@
         proxy=""
         type="mms,xcap"
         user="eesecure"
-    />
-    <apn
-        mcc="234"
-        mnc="33"
-        carrier="IMS"
-        apn="ims"
-        authtype="1"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_visible="false"
     />
     <apn
         mcc="234"
@@ -372,16 +323,6 @@
     />
     <apn
         mcc="234"
-        mnc="38"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="234"
         mnc="55"
         carrier="IMS"
         apn="ims"
@@ -403,14 +344,5 @@
         protocol="IP"
         type="xcap"
         user="eesecure"
-    />
-    <apn
-        mcc="234"
-        mnc="86"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV6"
-        type="ims"
     />
 </apns>

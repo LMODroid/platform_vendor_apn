@@ -6,36 +6,6 @@
 <apns version="8">
     <apn
         mcc="466"
-        mnc="01"
-        carrier="FarEasTone IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="466"
-        mnc="89"
-        carrier="T Star (IMS)"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IP"
-        roaming_protocol="IP"
-        type="ims"
-    />
-    <apn
-        mcc="466"
-        mnc="92"
-        carrier="CHT IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IP"
-        type="ims"
-    />
-    <apn
-        mcc="466"
         mnc="93"
         carrier="Mobitai"
         apn="internet"
@@ -81,16 +51,6 @@
         carrier="台灣大哥大(TW Mobile) (twm)"
         apn="twm"
         type="default,supl"
-    />
-    <apn
-        mcc="466"
-        mnc="97"
-        carrier="台灣大哥大(TW Mobile) (IMS)"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
     />
     <apn
         mcc="466"

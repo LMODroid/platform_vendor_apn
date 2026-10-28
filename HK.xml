@@ -81,26 +81,6 @@
     />
     <apn
         mcc="454"
-        mnc="03"
-        carrier="3 IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="454"
-        mnc="06"
-        carrier="SmarTone IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="454"
         mnc="07"
         carrier="3gnet"
         apn="3gnet"
@@ -146,26 +126,6 @@
     />
     <apn
         mcc="454"
-        mnc="12"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="454"
-        mnc="13"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="454"
         mnc="14"
         carrier="3-DB-GPRS"
         apn="web-g.three.com.hk"
@@ -185,28 +145,8 @@
     />
     <apn
         mcc="454"
-        mnc="15"
-        carrier="SmarTone IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="454"
         mnc="16"
         carrier="csl IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="454"
-        mnc="17"
-        carrier="SmarTone IMS"
         apn="ims"
         network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
         protocol="IPV4V6"

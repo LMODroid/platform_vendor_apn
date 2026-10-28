@@ -26,37 +26,4 @@
         type="xcap"
         user=""
     />
-    <apn
-        mcc="255"
-        mnc="03"
-        carrier="Kyivstar"
-        apn="www.kyivstar.net"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="255"
-        mnc="03"
-        carrier="Kyivstar Prepaid"
-        apn="www.ab.kyivstar.net"
-        mmsc=""
-        password=""
-        port=""
-        proxy=""
-        type="default,supl"
-        user=""
-    />
-    <apn
-        mcc="255"
-        mnc="06"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        type="ims"
-    />
 </apns>

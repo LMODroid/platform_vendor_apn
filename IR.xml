@@ -54,25 +54,6 @@
     />
     <apn
         mcc="432"
-        mnc="11"
-        carrier="IR-MCI"
-        apn="mcinet"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
-    />
-    <apn
-        mcc="432"
-        mnc="11"
-        carrier="IR-MCI MMS"
-        apn="mcinet"
-        mmsc="http://192.168.193.134:38090/was"
-        mmsport="8080"
-        mmsproxy="192.168.194.73"
-        type="mms"
-    />
-    <apn
-        mcc="432"
         mnc="20"
         carrier="IMS"
         apn="ims"
@@ -80,15 +61,6 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"
-    />
-    <apn
-        mcc="432"
-        mnc="20"
-        carrier="Rightel"
-        apn="rightel"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="default,supl"
     />
     <apn
         mcc="432"

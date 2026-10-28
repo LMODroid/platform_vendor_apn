@@ -39,15 +39,6 @@
     />
     <apn
         mcc="621"
-        mnc="30"
-        carrier="IMS"
-        apn="ims"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="621"
         mnc="60"
         carrier="IMS"
         apn="ims"

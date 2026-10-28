@@ -6,15 +6,6 @@
 <apns version="8">
     <apn
         mcc="510"
-        mnc="01"
-        carrier="IMS"
-        apn="ims"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="510"
         mnc="09"
         carrier="IMS"
         apn="ims"
@@ -34,26 +25,6 @@
         protocol="IPV4V6"
         type="default,ia,xcap"
         user="smartfren"
-    />
-    <apn
-        mcc="510"
-        mnc="10"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_visible="false"
-    />
-    <apn
-        mcc="510"
-        mnc="11"
-        carrier="IMS"
-        apn="ims"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
     />
     <apn
         mcc="510"

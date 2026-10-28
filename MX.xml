@@ -7,17 +7,6 @@
     <apn
         mcc="334"
         mnc="020"
-        carrier="Telcel IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_visible="false"
-    />
-    <apn
-        mcc="334"
-        mnc="020"
         carrier="Telcel Internet"
         apn="internet.itelcel.com"
         authtype="1"
@@ -31,52 +20,10 @@
     />
     <apn
         mcc="334"
-        mnc="03"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        type="ims"
-        user_visible="false"
-    />
-    <apn
-        mcc="334"
-        mnc="03"
-        carrier="Movistar MX"
-        apn="internet.movistar.mx"
-        mmsc=""
-        network_type_bitmask="18"
-        password="movistar"
-        port=""
-        protocol="IPV4V6"
-        proxy=""
-        type="xcap"
-        user="movistar"
-    />
-    <apn
-        mcc="334"
-        mnc="050"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="334"
         mnc="090"
         carrier="IMS"
         apn="ims"
         network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="334"
-        mnc="140"
-        carrier="ims"
-        apn="ims"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims"

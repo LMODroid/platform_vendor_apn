@@ -6,15 +6,6 @@
 <apns version="8">
     <apn
         mcc="450"
-        mnc="05"
-        carrier="SKT IMS"
-        apn="ims"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="450"
         mnc="06"
         carrier="LGU IMS"
         apn="ims"
@@ -22,14 +13,5 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         type="ims,mms"
-    />
-    <apn
-        mcc="450"
-        mnc="08"
-        carrier="KT IMS"
-        apn="ims"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
     />
 </apns>

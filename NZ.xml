@@ -6,16 +6,6 @@
 <apns version="8">
     <apn
         mcc="530"
-        mnc="01"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="530"
         mnc="02"
         carrier="Telecom NZ"
         apn="internet.telecom.co.nz"
@@ -64,23 +54,5 @@
         mmsport="80"
         mmsproxy="210.55.11.73"
         type="mms"
-    />
-    <apn
-        mcc="530"
-        mnc="05"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV6"
-        roaming_protocol="IPV6"
-        type="ims"
-    />
-    <apn
-        mcc="530"
-        mnc="24"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        type="ims"
     />
 </apns>

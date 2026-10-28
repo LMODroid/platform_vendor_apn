@@ -6,25 +6,6 @@
 <apns version="8">
     <apn
         mcc="222"
-        mnc="01"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="222"
-        mnc="07"
-        carrier="IMS"
-        apn="ims"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="222"
         mnc="08"
         carrier="Fastweb 4G"
         apn="apn.fastweb.it"
@@ -40,16 +21,6 @@
         proxy=""
         type="mms"
         user=""
-    />
-    <apn
-        mcc="222"
-        mnc="08"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
     />
     <apn
         mcc="222"
@@ -71,48 +42,10 @@
     <apn
         mcc="222"
         mnc="50"
-        carrier="IMS"
-        apn="ims"
-        mvno_match_data="F003"
-        mvno_type="gid"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="222"
-        mnc="50"
         carrier="Iliad"
         apn="iliad"
         mmsc="http://mms.iliad-italia.it"
         network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
         type="default,supl,mms,dun"
-    />
-    <apn
-        mcc="222"
-        mnc="53"
-        carrier="IMS CoopVoce"
-        apn="ims"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_visible="false"
-    />
-    <apn
-        mcc="222"
-        mnc="88"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        type="ims"
-    />
-    <apn
-        mcc="222"
-        mnc="99"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        type="ims"
     />
 </apns>

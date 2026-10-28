@@ -7,17 +7,6 @@
     <apn
         mcc="732"
         mnc="101"
-        carrier="Claro IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-        user_visible="false"
-    />
-    <apn
-        mcc="732"
-        mnc="101"
         carrier="Web Comcel 3GSM"
         apn="internet.comcel.com.co"
         authtype="1"
@@ -46,34 +35,5 @@
         proxy=""
         type="default,supl"
         user="movistar"
-    />
-    <apn
-        mcc="732"
-        mnc="103"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="732"
-        mnc="111"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
-        type="ims"
-    />
-    <apn
-        mcc="732"
-        mnc="123"
-        carrier="IMS"
-        apn="ims"
-        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
-        type="ims"
-        user_visible="false"
     />
 </apns>

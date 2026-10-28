@@ -199,3 +199,376 @@ overrides:
     mvno_match_data: null
   set:
     roaming_protocol: IPV4V6
+# LMODroid: our APNs that are more complete than Pixel's (MTK APN rule, notes/vendor_apn.md)
+- match:
+    carrier: Java Session
+    carrier_id: '529'
+    mcc: '724'
+    mnc: '05'
+    apn: java.claro.com.br
+    type: default,supl
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    apn: wap.claro.com.br
+    mmsc: http://wap.claro.com.br
+    port: '8799'
+    proxy: 200.169.126.11
+- match:
+    carrier: China Unicom 3G
+    carrier_id: '1436'
+    mcc: '460'
+    mnc: 09
+    apn: 3gnet
+    type: default,supl
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    apn: 3gwap
+    port: '80'
+    proxy: 10.0.0.172
+- match:
+    carrier: HOS
+    carrier_id: '2395'
+    mcc: '262'
+    mnc: '01'
+    apn: hos
+    type: mms,xcap
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    bearer_bitmask: '18'
+    mmsproxy: 109.237.176.193
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    user_visible: 'false'
+- match:
+    carrier: ims
+    carrier_id: '1463'
+    mcc: '238'
+    mnc: '01'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: ims
+    carrier_id: '1464'
+    mcc: '238'
+    mnc: '02'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IP
+    roaming_protocol: IP
+- match:
+    carrier: ims
+    carrier_id: '1463'
+    mcc: '238'
+    mnc: '10'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: IMS
+    carrier_id: '1475'
+    mcc: '244'
+    mnc: '05'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IPV4V6
+- match:
+    carrier: IMS
+    carrier_id: '1958'
+    mcc: '208'
+    mnc: '15'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: ims
+    carrier_id: '1505'
+    mcc: '234'
+    mnc: '20'
+    apn: IMS
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    apn: ims
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IPV4V6
+- match:
+    carrier: EE MMS
+    carrier_id: '718'
+    mcc: '234'
+    mnc: '30'
+    apn: eezone
+    type: mms,xcap
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IP
+- match:
+    carrier: IMS
+    carrier_id: '797'
+    mcc: '425'
+    mnc: '02'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IPV4V6
+- match:
+    carrier: MCI-GPRS
+    carrier_id: '1562'
+    mcc: '432'
+    mnc: '11'
+    apn: mcinet
+    type: default,supl
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: rightel
+    carrier_id: '1987'
+    mcc: '432'
+    mnc: '20'
+    apn: rightel
+    type: default,supl
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: IMS
+    carrier_id: null
+    mcc: '222'
+    mnc: '50'
+    apn: ims
+    type: ims
+    mvno_type: gid
+    mvno_match_data: F003
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: XCAP
+    carrier_id: '1914'
+    mcc: '334'
+    mnc: '03'
+    apn: xcap
+    type: xcap
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    apn: internet.movistar.mx
+    network_type_bitmask: '18'
+    password: movistar
+    user: movistar
+- match:
+    carrier: Altan
+    carrier_id: '2469'
+    mcc: '334'
+    mnc: '140'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: IMS
+    carrier_id: '1632'
+    mcc: '502'
+    mnc: '18'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IPV4V6
+- match:
+    carrier: IMS
+    carrier_id: '1644'
+    mcc: '204'
+    mnc: 08
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IPV4V6
+    roaming_protocol: IPV4V6
+- match:
+    carrier: IMS
+    carrier_id: null
+    mcc: '231'
+    mnc: '01'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    user_visible: 'false'
+- match:
+    carrier: 台灣大哥大TS (IMS)
+    carrier_id: '1886'
+    mcc: '466'
+    mnc: '89'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IP
+    roaming_protocol: IP
+- match:
+    carrier: 中華電信(Chunghwa) (IMS)
+    carrier_id: '1884'
+    mcc: '466'
+    mnc: '92'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IPV4V6
+    roaming_protocol: IP
+- match:
+    carrier: IMS
+    carrier_id: '1750'
+    mcc: '255'
+    mnc: '06'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    protocol: IPV4V6
+- match:
+    carrier: ATT IMS
+    carrier_id: '1187'
+    mcc: '310'
+    mnc: '030'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    mtu: '1430'
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    user_visible: 'false'
+- match:
+    carrier: ims
+    carrier_id: '1779'
+    mcc: '310'
+    mnc: '150'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    mtu: '1430'
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    user_visible: 'false'
+- match:
+    carrier: ATT IMS
+    carrier_id: '1187'
+    mcc: '310'
+    mnc: '170'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    mtu: '1430'
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    user_visible: 'false'
+- match:
+    carrier: ATT IMS
+    carrier_id: '1187'
+    mcc: '310'
+    mnc: '380'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    mtu: '1430'
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    user_visible: 'false'
+- match:
+    carrier: ATT IMS
+    carrier_id: '1187'
+    mcc: '310'
+    mnc: '560'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    mtu: '1430'
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    user_visible: 'false'
+- match:
+    carrier: ATT IMS
+    carrier_id: '1187'
+    mcc: '311'
+    mnc: '180'
+    apn: ims
+    type: ims
+    mvno_type: null
+    mvno_match_data: null
+  set:
+    mtu: '1430'
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    user_visible: 'false'
+- match:
+    carrier: Visible
+    carrier_id: '2146'
+    mcc: '311'
+    mnc: '480'
+    apn: VSBLIMS
+    type: ia,ims
+    mvno_type: gid
+    mvno_match_data: BAE1000000000000
+  set:
+    bearer_bitmask: 1|2|3|9|10|11|13|14|15|18
+    network_type_bitmask: 1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
+    type: ims,ia
+    user_visible: 'false'
