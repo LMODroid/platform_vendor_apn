@@ -6,12 +6,32 @@
 <apns version="8">
     <apn
         mcc="460"
+        mnc="01"
+        carrier="中国联通 (China Unicom) NET IMS"
+        apn="ims"
+        carrier_id="1436"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="460"
         mnc="06"
         carrier="沃宽带用户手机上网"
         apn="3gwap"
         port="80"
         proxy="10.0.0.172"
         type="default,supl"
+    />
+    <apn
+        mcc="460"
+        mnc="09"
+        carrier="中国联通 (China Unicom) NET IMS"
+        apn="ims"
+        carrier_id="1436"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
     />
     <apn
         mcc="460"
